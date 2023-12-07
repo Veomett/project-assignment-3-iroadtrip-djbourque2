@@ -265,7 +265,7 @@ public class IRoadTrip {
     }
 
 
-    public List<String> findPath (String country1, String country2) {
+    public List<String> findPath (String country1, String country2) {//is not complete, could not finish
         Hashtable<String, Boolean> isVisited = new Hashtable<>();
         List<String> ret = new ArrayList<>();
         isVisited.put(country1,true);
@@ -282,12 +282,8 @@ public class IRoadTrip {
         return null;
     }
 
-    public String findP_recur (String curr, String end){
 
-    }
-
-
-    public void acceptUserInput() {
+    public void acceptUserInput() {//could not complete
         // Replace with your code
         System.out.println("IRoadTrip - skeleton");
     }
